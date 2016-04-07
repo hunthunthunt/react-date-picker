@@ -7,6 +7,8 @@ react-date-picker
 
 > A date picker built especially for React, with love.
 
+[![Date picker](./react-date-picker.gif)](http://zippyui.github.io/react-date-picker)
+
 [![Date picker](./react-date-picker.png)](http://zippyui.github.io/react-date-picker)
 [![hackerone theme](./react-date-picker-theme-hackerone.png)](http://zippyui.github.io/react-date-picker)
 
@@ -144,7 +146,7 @@ The second option is specifying the `locale` prop on the date picker. This assum
  * `maxDate` : Date / String / Moment / Number
  * `dateFormat`: String [see moment.js formats](http://momentjs.com/docs/#/displaying/format/). Default date format is 'YYYY-MM-DD'
  * `onChange`: Function (dateText, moment, event) - called when the user selects a date
- * `onRangechange1: Function (arrayText, arratMoment, event) - called when the user selects a range
+ * `onRangechange`: Function (arrayText, arratMoment, event) - called when the user selects a range
 
  * `onSelect`: Function(dateText, moment, view) - called when the user selects a year/month
  * `onNav`: Function(dateText, moment, view, direction) - called when the user navigates to the next/previous month/year/decade.

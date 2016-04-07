@@ -1,11 +1,8 @@
 /*
 
- This file is part of the ZippyUI Framework
-
- Copyright (c) 2011 ZippyUI.com
+ Copyright (c) 2016 ZippyUI.com
 
  All rights reserved to zippyui.com
- This software cannot be used/copied/distributed without the express permission from staff at zippyui.com
 
  */
 .date-picker {
@@ -48,14 +45,23 @@
 .date-picker .dp-table .dp-cell:not(:first-child) {
   border-left: 0 solid transparent;
 }
+.date-picker .dp-table .dp-cell.dp-weeknumber,
+.date-picker .dp-table .dp-cell.dp-weeknumber:hover {
+  color: #8d8d8d;
+  background: none;
+  cursor: auto;
+}
 .date-picker .dp-table .dp-cell.dp-prev,
 .date-picker .dp-table .dp-cell.dp-next {
   color: #5c5c5c;
   background: inherit;
 }
+<<<<<<< HEAD
 .date-picker .dp-table .dp-cell.dp-in-range {
   background: #6EB8F1;
 }
+=======
+>>>>>>> master
 .date-picker .dp-table .dp-cell:hover {
   color: inherit;
   font-weight: inherit;
@@ -74,9 +80,8 @@
 .date-picker .dp-table .dp-cell.dp-current {
   font-weight: bold;
 }
-.date-picker .dp-table .dp-cell.dp-in-range.dp-current,
-.date-picker .dp-table .dp-cell.dp-in-range.dp-value {
-  background: #e2f0ff;
+.date-picker .dp-table .dp-cell.dp-in-range {
+  background: #6eb8f1;
 }
 .date-picker .dp-table .dp-cell.dp-month {
   text-overflow: ellipsis;

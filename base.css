@@ -1,11 +1,8 @@
 /*
 
- This file is part of the ZippyUI Framework
-
- Copyright (c) 2011 ZippyUI.com
+ Copyright (c) 2016 ZippyUI.com
 
  All rights reserved to zippyui.com
- This software cannot be used/copied/distributed without the express permission from staff at zippyui.com
 
  */
 .date-picker {
@@ -74,6 +71,12 @@
   -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+.date-picker .dp-week-day-names {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
 }
 .date-picker .dp-cell {
   display: -webkit-box;
