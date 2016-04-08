@@ -21,7 +21,6 @@
   background: #272822;
 }
 .date-picker .dp-header .dp-cell {
-  margin-bottom: 8px;
   font-weight: normal;
   color: white;
 }
@@ -191,7 +190,7 @@
 .date-picker .dp-nav-view:hover {
 }
 .date-picker .dp-nav-table .dp-cell {
-  padding: 4px;
+  padding: 8px;
   font-weight: normal;
 }
 .date-picker .dp-nav-table .dp-nav-cell {
