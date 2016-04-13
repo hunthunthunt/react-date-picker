@@ -144,7 +144,7 @@ The second option is specifying the `locale` prop on the date picker. This assum
  * `onChange`: Function (dateText, moment, event) - called when the user selects a date
  * `onRangechange`: Function (arrayText, arratMoment, event) - called when the user selects a range
 
- * `onSelect`: Function(dateText, moment, view) - called when the user selects a year/month
+ * `onSelect`: Function(dateText, moment, view, event) - called when the user selects a year/
  * `onNav`: Function(dateText, moment, view, direction) - called when the user navigates to the next/previous month/year/decade.
  * `renderDay`: Function - (optional) A function that should return a React DOM for the day cell. The first param is the props object. You can use this to have full control over what gets rendered for a day.
  * `onRenderDay`: Function - (optional) A function that can manipulate the props object for a day, and SHOULD return a new props object. Use this for custom day styling. You can use this to take full control over the styles/css classes/attributes applied to the day cell in the month view.
